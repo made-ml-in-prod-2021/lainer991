@@ -1,2 +1,6 @@
 # lainer991
-Repo for MADE ML in production course
+
+Repo of MADE student Tolstov Evgeniy
+
+link on made profile:
+https://data.mail.ru/profile/e.tolstov/
