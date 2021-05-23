@@ -28,7 +28,7 @@ def predict_pipeline_run(predict_pipeline_params):
     data = read_data(predict_pipeline_params.input_data_path)
 
     # testing predict function on data without target
-    # data, y = extract_target(data,'target')
+    data, y = extract_target(data,'target')
 
     data_transformed = full_transform(data)
     logger.info(f"Transformed data shape is {data_transformed.shape}")
