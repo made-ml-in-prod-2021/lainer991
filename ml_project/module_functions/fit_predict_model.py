@@ -9,7 +9,6 @@ from entities.train_params import TrainingParams
 
 ClassificationModel = Union[LogisticRegression, RandomForestClassifier]
 
-ESTIMATORS=300
 
 def train_model(
         X: pd.DataFrame, y: pd.DataFrame, train_params: TrainingParams
@@ -17,7 +16,7 @@ def train_model(
     if train_params.model_type == "LogisticRegression":
         model = LogisticRegression()
     elif train_params.model_type == "RandomForestClassifier":
-        model = RandomForestClassifier(n_estimators=ESTIMATORS)
+        model = RandomForestClassifier(n_estimators=train_params.estimators_n)
     else:
         raise NotImplementedError()
     model.fit(X, y)
