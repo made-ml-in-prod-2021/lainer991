@@ -32,24 +32,24 @@ pull:
 
 ## Decreasing size
 
-Для уменьшения размера образа был использован python-slim version, также в сервисе использовалась уже обученная модель, без пайплайна по ее созданию
+To size decrease used python-slim version
 
 ## Self-review
 
 |  |Task|Ball|
 |---|-------------------------------------------------------------------------------------------------------------|:-------------:|
-|1.|inference модели "обернут" в rest сервис с использованием FastAPI|3|
-|2.|Написан тест для /predict|3|
-|3.|Написан скрипт, который может делать запросы к сервису |2|
-|4.|Валидация не делалась|0|
-|5.|Написан dockerfile, на его основе собран образ|4|
-|6.|Размер docker image оптимизирован|3|
-|7.|Образ опубликован в https://hub.docker.com/|2|
-|8.|В readme написаны корректные команды docker pull/run|1|
-|9.|Проведена самооценка|1|
+|1.|inference with FastAPI|3|
+|2.|test for /predict|3|
+|3.|Was build script for server requests|2|
+|4.|No validation|0|
+|5.|Was build docker container |4|
+|6.|Docker image was decreased by python-slim version|3|
+|7.|Docker image pushed to https://hub.docker.com/|2|
+|8.|In readme there is commands for docker pull/run|1|
+|9.|Self-review done|1|
 <br>
 <br>
-Итого 19 баллов.
+Overall 19 points.
 <br>
 <br>
 
