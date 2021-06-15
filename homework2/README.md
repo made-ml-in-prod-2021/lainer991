@@ -49,7 +49,7 @@ To size decrease used python-slim version
 |9.|Self-review done|1|
 <br>
 <br>
-Overall 19 points.
+Overall 19 points
 <br>
 <br>
 
